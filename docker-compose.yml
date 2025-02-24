@@ -1,0 +1,7 @@
+services:
+  helloworld:
+    build:
+      context: Samling-1-Java
+      dockerfile: Dockerfile
+    ports:
+      - "28080:8080"
