@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "main" {
   name     = "${var.rg_name}-${var.environment}"
-  location = var.rg_location
+  location = var.location
   tags = {
     "cost_center"        = "code"
     "deployment_type"    = "terraform"
