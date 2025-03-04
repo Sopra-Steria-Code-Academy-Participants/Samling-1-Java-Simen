@@ -20,6 +20,6 @@ public class SimpleAPIApplication {
 
     @GetMapping(value = "/world", produces = "text/plain")
     public ResponseEntity<String> hello() {
-        return ResponseEntity.ok("Hello .net noobs!!");
+        return ResponseEntity.ok("Hello Code Academy!!");
     }
 }
