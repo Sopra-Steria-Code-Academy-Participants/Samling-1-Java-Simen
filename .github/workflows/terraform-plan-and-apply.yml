@@ -2,11 +2,11 @@ name: Terraform Plan and Apply
 
 on:
   push:
-    branches: [ "master","instructor" ]
+    branches: [ "main" ]
     paths:
       - '**/terraform/**'
   pull_request:
-    branches: [ "master","instructor","inst" ]
+    branches: [ "main"]
     paths:
       - '**/terraform/**'
   workflow_dispatch:
