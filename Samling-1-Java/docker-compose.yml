@@ -1,0 +1,7 @@
+services:
+  helloworld:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "28080:8080"
