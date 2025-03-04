@@ -18,11 +18,11 @@ variable "location" {
 variable "app_service_plan" {
   type        = string
   description = ""
-  default     = "CodeAcademy-JAVA-ServicePlan-MLK"
+  default     = "CodeAcademy-JAVA-ServicePlan-SIRO"
 }
 
 variable "app_service" {
   type        = string
   description = ""
-  default     = "CodeAcademy-JAVA-Service-MLK"
+  default     = "CodeAcademy-JAVA-Service-SIRO"
 }
